@@ -44,11 +44,10 @@ if [ ! -f validator.jar ]; then
   wget https://github.com/pwrlabs/PWR-Validator/releases/download/13.1.0/validator.jar
 fi
 
-
 if [ ! -f config.json ]; then
-  wget https://github.com/pwrlabs/PWR-Validator/raw/refs/heads/main/config.json
-
+  wget https://raw.githubusercontent.com/pwrlabs/PWR-Validator/refs/heads/main/config.json
 fi
+
 
 read -p "请输入您想要设置的密码: " password
 
