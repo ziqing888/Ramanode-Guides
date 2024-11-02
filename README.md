@@ -15,9 +15,10 @@ https://discord.gg/BD2YGpFk
 wget -q https://raw.githubusercontent.com/ziqing888/Ramanode-Guides/refs/heads/main/PWR.sh -O PWR.sh && chmod +x PWR.sh && ./PWR.sh
    ```
 
-### 3. 安装 PWR 钱包：
+### 3. 安装 PWR 钱包：  
+  ```bash
 https://chromewebstore.google.com/u/3/detail/pwr-wallet/kennjipeijpeengjlogfdjkiiadhbmjl
-
+   ```
 ### 4. 获取私钥并导入 PWR 钱包：
 cd pwr-hca && java -jar validator.jar get-private-key password
 ### 5，在 Discord #validator-node-application 打开一张票填写信息申请节点
