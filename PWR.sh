@@ -59,4 +59,4 @@ screen -S pwr -p 0 -X stuff $'sudo java -jar validator.jar password '$SERVER_IP'
 
 echo "验证者节点现在正在后台运行。"
 echo "使用以下命令检查：screen -Rd pwr"
-echo "订阅： https://t.me/ksqxszq"
+echo "欢迎加入TG群组： https://t.me/ksqxszq"
