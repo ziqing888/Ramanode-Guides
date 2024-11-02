@@ -4,7 +4,9 @@
 
 ### 最低规格：
 ▫️ 1 vCPU
+
 ▫️ 1 GB 内存
+
 ▫️ 25 GB 存储空间
 
 ### 1. 通过 Discord -> Open ticket 注册成为验证者：
