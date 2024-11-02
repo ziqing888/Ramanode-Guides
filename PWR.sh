@@ -48,7 +48,7 @@ if [ ! -f config.json ]; then
   wget https://github.com/pwrlabs/PWR-Validator-Node/raw/main/config.json
 fi
 
-read -p "Enter your desired password: " password
+read -p "请输入您想要设置的密码: " password
 
 echo $password | sudo tee password
 
@@ -57,6 +57,6 @@ SERVER_IP=$(hostname -I | awk '{print $1}')
 screen -S pwr -dm
 screen -S pwr -p 0 -X stuff $'sudo java -jar validator.jar password '$SERVER_IP' --compression-level 0\n'
 
-echo "Validator node is now running in the background."
-echo "Check it using: screen -Rd pwr"
-echo "Subscribe: https://t.me/ksqxszq
+echo "验证者节点现在正在后台运行。"
+echo "使用以下命令检查：screen -Rd pwr"
+echo "订阅： https://t.me/ksqxszq"
