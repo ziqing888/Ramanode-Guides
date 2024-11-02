@@ -59,4 +59,4 @@ screen -S pwr -p 0 -X stuff $'sudo java -jar validator.jar password '$SERVER_IP'
 
 echo "Validator node is now running in the background."
 echo "Check it using: screen -Rd pwr"
-echo "Subscribe: https://t.me/HappyCuanAirdrop"
+echo "Subscribe: https://t.me/ksqxszq
