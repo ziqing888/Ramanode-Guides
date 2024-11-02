@@ -41,9 +41,9 @@ if ! command -v java &> /dev/null; then
 fi
 
 if [ ! -f validator.jar ]; then
- wget https://github.com/pwrlabs/PWR-Validator/releases/download/13.1.0/validator.jar
-
+  wget https://github.com/pwrlabs/PWR-Validator/releases/download/13.1.0/validator.jar
 fi
+
 
 if [ ! -f config.json ]; then
   wget https://github.com/pwrlabs/PWR-Validator/raw/refs/heads/main/config.json
